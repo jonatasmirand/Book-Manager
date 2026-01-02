@@ -1,0 +1,70 @@
+.bookItem {
+    list-style: none;
+    text-align: center;
+    border: 1px solid #e5e7eb;
+    border-radius: 5px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    background-color: #c0c2bd;
+    max-width: 200px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.bookItem:hover {
+    transform: translateY(-3px);
+}
+
+
+.title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #29251c;
+}
+
+.author {
+    font-size: 1.2rem;
+    color: #29251c;
+}
+
+.status {
+    font-size: 1rem;
+    color: #29251c;
+}
+
+
+.buttonContainer {
+    margin-top: 0.5rem;
+    padding: 0.5rem;
+}
+
+
+.button {
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    font-weight: 500;
+    transition: background 0.2s ease-in-out;
+    }
+
+.invertStatus {
+    padding: 0.5rem;
+    margin: 5px;
+    background-color: #f08876;
+    color: white;
+}
+
+.invertStatus:hover {
+    background-color: #de7360;
+}
+
+.delete {
+    padding: 0.5rem ;
+    margin: 5px ;
+    background-color: #f08876;
+    color: white;
+}
+
+.delete:hover {
+    background-color:#de7360;
+}
